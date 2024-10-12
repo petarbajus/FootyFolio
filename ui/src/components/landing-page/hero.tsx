@@ -1,5 +1,4 @@
 import { Button } from "../ui/button";
-import GradualSpacing from "../ui/gradual-spacing";
 import { RainbowButton } from "../ui/rainbow-button";
 
 export function LandingPageHero() {

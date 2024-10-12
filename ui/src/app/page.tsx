@@ -1,13 +1,21 @@
-import { LandingPageHero } from "@/components/landing-page/hero";
-import LandingPageNav from "@/components/landing-page/navbar";
-import { ModeToggle } from "@/components/theme-toggle";
-import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
-      <LandingPageNav />
-      <LandingPageHero />
+      <Link href="/login">
+        <Button>
+          Register
+        </Button>
+      </Link>
+
+      <Link href="/register">
+        <Button>
+          Login
+        </Button>
+      </Link>
     </div>
   );
 }
