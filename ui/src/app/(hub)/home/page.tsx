@@ -1,11 +1,11 @@
-import UserPlayers from "@/components/user-players";
+import UserPlayerCard from "@/components/user-players";
 import UserWishlist from "@/components/user-wishlist";
 import { SignOutButton } from "@clerk/nextjs";
 
 export default function HomePage() {
     return (
-        <div className="flex gap-4">
-            <UserPlayers />
+        <div className="flex flex-col md:flex-row grow gap-4">
+            <UserPlayerCard />
             <UserWishlist />
         </div>
     )

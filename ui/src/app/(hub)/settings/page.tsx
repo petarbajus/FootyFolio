@@ -1,5 +1,9 @@
+import { UserProfile } from "@clerk/nextjs";
+
 export default function SettingsPage() {
   return (
-    <div>SettingsPage</div>
+    <div className="mt-5">
+      <UserProfile routing="hash"  />
+    </div>
   )
 }

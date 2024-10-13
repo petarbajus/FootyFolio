@@ -24,10 +24,10 @@ export const navElements: {
             href: "/settings",
             subtitle: "Manage your account",
         },
-        {
-            title: "Help",
-            icon: HelpCircle,
-            href: "/help",
-            subtitle: "Get help",
-        },
+        // {
+        //     title: "Help",
+        //     icon: HelpCircle,
+        //     href: "/help",
+        //     subtitle: "Get help",
+        // },
     ];

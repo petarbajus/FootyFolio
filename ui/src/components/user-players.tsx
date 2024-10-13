@@ -1,7 +1,7 @@
 import { MyPlayersFootballerCard } from "./footballer-home-card";
 import UserHomeCard from "./user-home-card";
 
-export default function UserPlayers() {
+export default function UserPlayerCard() {
   return (
     <UserHomeCard title="My Players">
       <MyPlayersFootballerCard name="Lionel Messi" footballClub="Inter Miami" imageUrl="/placeholder-img.jpeg" position="CF" />

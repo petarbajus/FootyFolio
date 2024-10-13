@@ -2,6 +2,7 @@
 import { UserButton } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
 import { navElements } from "@/lib/nav-elements";
+import { MobileSidebar } from "./sidebar";
 
 export default function PageHeader() {
 
@@ -16,7 +17,10 @@ export default function PageHeader() {
                 <p className="text-muted-foreground">{subtitle}</p>
             </div>
 
-            <UserButton />
+            <div className="flex items-center gap-x-3">
+                <MobileSidebar />
+                <UserButton />
+            </div>
         </div>
     )
 }

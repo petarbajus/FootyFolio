@@ -1,15 +1,15 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
-import { ClipboardListIcon, HandCoins, Trash2, MessageCircleQuestion } from "lucide-react";
+import { ClipboardListIcon, Trash2, MessageCircleQuestion } from "lucide-react";
 
-interface WishlistFootballerCardProps {
+interface Props {
     name: string;
     footballClub: string;
     position: string;
     imageUrl: string;
 }
 
-export function WishlistFootballerCard({ name, footballClub, position, imageUrl }: WishlistFootballerCardProps) {
+export function WishlistFootballerCard({ name, footballClub, position, imageUrl }: Props) {
     return (
         <div className="flex gap-x-5">
             <Image alt="placeholder" src={imageUrl} width={100} height={100}
@@ -29,7 +29,7 @@ export function WishlistFootballerCard({ name, footballClub, position, imageUrl 
 }
 
 
-export function MyPlayersFootballerCard({ name, footballClub, position, imageUrl }: WishlistFootballerCardProps) {
+export function MyPlayersFootballerCard({ name, footballClub, position, imageUrl }: Props) {
     return (
         <div className="flex gap-x-5">
             <Image alt="placeholder" src={imageUrl} width={100} height={100}
