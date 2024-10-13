@@ -21,7 +21,7 @@ Watch the video below for a complete walkthrough of FootyFolio:
 
 [![FootyFolio Walkthrough](https://www.loom.com/share/b8fa2e2ebb2243be8d35fe47de4bd2eb?sid=1eb57736-0960-43ec-98c8-d29f7d4342e2)](https://www.loom.com/share/b8fa2e2ebb2243be8d35fe47de4bd2eb?sid=1eb57736-0960-43ec-98c8-d29f7d4342e2)
 
-For additional insights, check out our [video demonstration](#) (replace with actual link).
+For additional insights, check out our [video demonstration](https://www.loom.com/share/659e69647fb941feabeefd7e1b6abdf7?sid=36daa77b-ce55-410b-9457-c87dbd9ffceb).
 
 ## Screenshots
 
