@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FootyFolio.Repository.Common\FootyFolio.Repository.Common.csproj" />
+    <ProjectReference Include="..\FootyFolio.Repository\FootyFolio.Repository.csproj" />
+    <ProjectReference Include="..\FootyFolio.Service.Common\FootyFolio.Service.Common.csproj" />
+  </ItemGroup>
+
+</Project>

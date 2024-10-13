@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "POXLCguUZec=",
+  "success": true,
+  "projectFilePath": "C:\\FootyFolio\\FootyFolioLogic\\FootyFolioLogic.Service\\FootyFolioLogic.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Drazen\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Drazen\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Drazen\\.nuget\\packages\\npgsql\\8.0.4\\npgsql.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

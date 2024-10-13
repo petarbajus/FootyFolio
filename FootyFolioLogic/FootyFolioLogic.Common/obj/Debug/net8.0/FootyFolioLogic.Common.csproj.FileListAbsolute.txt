@@ -1,0 +1,12 @@
+C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.Common\bin\Debug\net8.0\FootyFolioLogic.Common.deps.json
+C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.Common\bin\Debug\net8.0\FootyFolioLogic.Common.dll
+C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.Common\bin\Debug\net8.0\FootyFolioLogic.Common.pdb
+C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.Common\obj\Debug\net8.0\FootyFolioLogic.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.Common\obj\Debug\net8.0\FootyFolioLogic.Common.AssemblyInfoInputs.cache
+C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.Common\obj\Debug\net8.0\FootyFolioLogic.Common.AssemblyInfo.cs
+C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.Common\obj\Debug\net8.0\FootyFolioLogic.Common.csproj.CoreCompileInputs.cache
+C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.Common\obj\Debug\net8.0\FootyFolioLogic.Common.sourcelink.json
+C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.Common\obj\Debug\net8.0\FootyFolioLogic.Common.dll
+C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.Common\obj\Debug\net8.0\refint\FootyFolioLogic.Common.dll
+C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.Common\obj\Debug\net8.0\FootyFolioLogic.Common.pdb
+C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.Common\obj\Debug\net8.0\ref\FootyFolioLogic.Common.dll

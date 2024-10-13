@@ -1,0 +1,10 @@
+[package]
+name = "rust-smart-contract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+soroban-sdk = "0.7.0"  # Add Soroban SDK dependency
+
+[lib]
+crate-type = ["cdylib"]  # This is important for WASM compilation
