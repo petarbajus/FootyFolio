@@ -37,6 +37,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FootyFolioLogic.WebApi.Controllers.TransactionController",
+    "Method": "InsertTransactionAsync",
+    "RelativePath": "api/Transaction/insert-transaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transaction",
+        "Type": "FootyFolio.Model.Transaction",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FootyFolioLogic.WebApi.Controllers.UserController",
     "Method": "InsertUser",
     "RelativePath": "api/User",
@@ -84,6 +100,27 @@
       {
         "Name": "user",
         "Type": "FootyFolio.Model.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootyFolioLogic.WebApi.Controllers.UserController",
+    "Method": "InsertFootballerIntoWishlistAsnyc",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "footballer",
+        "Type": "FootyFolio.Model.Footballer",
         "IsRequired": true
       }
     ],

@@ -45,3 +45,6 @@ C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.WebApi\obj\Debug\net8.0\refint\Foo
 C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.WebApi\obj\Debug\net8.0\FootyFolioLogic.WebApi.pdb
 C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.WebApi\obj\Debug\net8.0\FootyFolioLogic.WebApi.genruntimeconfig.cache
 C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.WebApi\obj\Debug\net8.0\ref\FootyFolioLogic.WebApi.dll
+C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.WebApi\bin\Debug\net8.0\Autofac.dll
+C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.WebApi\bin\Debug\net8.0\Autofac.Extensions.DependencyInjection.dll
+C:\FootyFolio\FootyFolioLogic\FootyFolioLogic.WebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
