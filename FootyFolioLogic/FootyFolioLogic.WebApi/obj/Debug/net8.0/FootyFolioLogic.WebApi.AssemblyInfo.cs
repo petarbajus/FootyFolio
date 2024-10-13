@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FootyFolioLogic.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1dc4ae5071cff436091197acf83c02b0e6ff2a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e95684bb2a82af8a54980a7db9d0f0e035af49da")]
 [assembly: System.Reflection.AssemblyProductAttribute("FootyFolioLogic.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FootyFolioLogic.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

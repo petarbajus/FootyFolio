@@ -1,0 +1,19 @@
+# Ignore Visual Studio temporary files, build results, and
+# folder configuration options
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build outputs
+/bin/
+/obj/
+
+# Ignore local .NET Core user secrets
+**/secrets.json
+
+# Ignore .NET generated files
+*.pdb
+*.exe
+*.dll

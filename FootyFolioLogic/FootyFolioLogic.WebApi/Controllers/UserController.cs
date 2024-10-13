@@ -17,7 +17,7 @@ namespace FootyFolioLogic.WebApi.Controllers
             _userService = userService;
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("getUserInfo/{id}")]
         public async Task<ActionResult> GetUserInfoAsync(Guid id)
         {
             var user = await _userService.GetUserInfoAsync(id);
@@ -36,13 +36,13 @@ namespace FootyFolioLogic.WebApi.Controllers
             return Ok(userGetRest);
         }
 
-        [HttpPost]
+        [HttpPost("insertUser")]
         public async Task<ActionResult> InsertUser(User user)
         {
             return await _userService.InsertUserAsync(user) ? Ok("User successfully inserted") : BadRequest("User insertion failed");
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("updateUserById{id}")]
         public async Task<ActionResult> UpdateUserByIdAsync(Guid id, User user)
         {
             return await _userService.UpdateUserByIdAsync(id, user) ? Ok("User successfully updated") : BadRequest("User update failed");
@@ -56,7 +56,7 @@ namespace FootyFolioLogic.WebApi.Controllers
             return (footballers == null) ? Ok(footballers) : BadRequest("No Footballers found");
         }
 
-        [HttpPost("{id}")]
+        [HttpPost("insertFootballerIntoWishlist{id}")]
 
         public async Task<ActionResult> InsertFootballerIntoWishlistAsnyc(Guid id, Footballer footballer)
         {

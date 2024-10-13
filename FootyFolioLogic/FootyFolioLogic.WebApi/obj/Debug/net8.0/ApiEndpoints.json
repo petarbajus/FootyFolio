@@ -2,7 +2,7 @@
   {
     "ContainingType": "FootyFolioLogic.WebApi.Controllers.FootballerController",
     "Method": "GetFootballersAsync",
-    "RelativePath": "api/Footballer",
+    "RelativePath": "api/Footballer/filterFootballers",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -23,7 +23,7 @@
   {
     "ContainingType": "FootyFolioLogic.WebApi.Controllers.FootballerController",
     "Method": "GetFootballersByUserId",
-    "RelativePath": "api/Footballer",
+    "RelativePath": "api/Footballer/getUserFootballers/{userId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -31,7 +31,7 @@
       {
         "Name": "userId",
         "Type": "System.Guid",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -39,7 +39,7 @@
   {
     "ContainingType": "FootyFolioLogic.WebApi.Controllers.TransactionController",
     "Method": "InsertTransactionAsync",
-    "RelativePath": "api/Transaction/insert-transaction",
+    "RelativePath": "api/Transaction/insertTransaction",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -47,80 +47,6 @@
       {
         "Name": "transaction",
         "Type": "FootyFolio.Model.Transaction",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FootyFolioLogic.WebApi.Controllers.UserController",
-    "Method": "InsertUser",
-    "RelativePath": "api/User",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "user",
-        "Type": "FootyFolio.Model.User",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FootyFolioLogic.WebApi.Controllers.UserController",
-    "Method": "GetUserInfoAsync",
-    "RelativePath": "api/User/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FootyFolioLogic.WebApi.Controllers.UserController",
-    "Method": "UpdateUserByIdAsync",
-    "RelativePath": "api/User/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "user",
-        "Type": "FootyFolio.Model.User",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FootyFolioLogic.WebApi.Controllers.UserController",
-    "Method": "InsertFootballerIntoWishlistAsnyc",
-    "RelativePath": "api/User/{id}",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "footballer",
-        "Type": "FootyFolio.Model.Footballer",
         "IsRequired": true
       }
     ],
@@ -143,9 +69,83 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "FootyFolioLogic.WebApi.Controllers.WebHookController",
+    "ContainingType": "FootyFolioLogic.WebApi.Controllers.UserController",
+    "Method": "GetUserInfoAsync",
+    "RelativePath": "api/User/getUserInfo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootyFolioLogic.WebApi.Controllers.UserController",
+    "Method": "InsertFootballerIntoWishlistAsnyc",
+    "RelativePath": "api/User/insertFootballerIntoWishlist{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "footballer",
+        "Type": "FootyFolio.Model.Footballer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootyFolioLogic.WebApi.Controllers.UserController",
+    "Method": "InsertUser",
+    "RelativePath": "api/User/insertUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "FootyFolio.Model.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootyFolioLogic.WebApi.Controllers.UserController",
+    "Method": "UpdateUserByIdAsync",
+    "RelativePath": "api/User/updateUserById{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "user",
+        "Type": "FootyFolio.Model.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootyFolioLogic.WebApi.Controllers.ClerkWebhookController",
     "Method": "ClerkWebhook",
-    "RelativePath": "webhooks/clerk/webhooks/clerk",
+    "RelativePath": "webhooks/clerk",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

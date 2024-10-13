@@ -7,26 +7,30 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks;   
 
 namespace FootyFolioLogic.WebApi.Controllers
 {
     [ApiController]
     [Route("webhooks/clerk")]
-    public class WebHookController : ControllerBase
+    public class ClerkWebhookController : ControllerBase
     {
         private readonly IUserService _userService;
         private readonly string _webhookSecret;
 
-        public WebHookController(IUserService userService)
+        public ClerkWebhookController(IUserService userService)
         {
             _userService = userService;
+
+            var secret = Environment.GetEnvironmentVariable("CLERK_WEBHOOK_SECRET");
+
+
             _webhookSecret = Environment.GetEnvironmentVariable("CLERK_WEBHOOK_SECRET")
                              ?? throw new Exception("You need a CLERK_WEBHOOK_SECRET in your environment variables.");
         }
 
         // Webhook handler for Clerk events
-        [HttpPost("webhooks/clerk")]
+        [HttpPost]
         public async Task<IActionResult> ClerkWebhook()
         {
             var svixId = Request.Headers["svix-id"].ToString();

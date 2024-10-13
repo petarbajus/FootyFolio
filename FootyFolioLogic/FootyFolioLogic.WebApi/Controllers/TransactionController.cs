@@ -17,7 +17,7 @@ namespace FootyFolioLogic.WebApi.Controllers
             _transactionService = transactionService;
         }
 
-        [HttpPost("insert-transaction")]
+        [HttpPost("insertTransaction")]
         public async Task<IActionResult> InsertTransactionAsync([FromBody] Transaction transaction)
         {
             var result = await _transactionService.InsertTransactionAsync(transaction);

@@ -18,7 +18,7 @@ namespace FootyFolioLogic.WebApi.Controllers
             _footballerService = footballerService;
         }
 
-        [HttpGet]
+        [HttpGet("filterFootballers")]
         public async Task<ActionResult> GetFootballersAsync(string name = "", bool? isForSale = true)
         {
             FootballerFilter filter = new FootballerFilter()
@@ -35,7 +35,7 @@ namespace FootyFolioLogic.WebApi.Controllers
             return Ok(footballers);
         }
 
-        [HttpGet]
+        [HttpGet("getUserFootballers/{userId}")]
         public async Task<ActionResult> GetFootballersByUserId(Guid userId)
         {
             var footballers = await _footballerService.GetFootballersByUserIdAsync(userId);
