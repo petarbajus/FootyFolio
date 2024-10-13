@@ -1,4 +1,3 @@
-import { Button } from "../ui/button";
 import { RainbowButton } from "../ui/rainbow-button";
 
 export function LandingPageHero() {

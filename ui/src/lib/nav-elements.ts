@@ -1,4 +1,5 @@
-import { LucideIcon, Home, PackageOpen, Settings, HelpCircle } from "lucide-react";
+import { LucideIcon, Home, PackageOpen, Settings } from "lucide-react";
+// import { LucideIcon, Home, PackageOpen, Settings, ¿¿¿¿ } from "lucide-react";
 
 export const navElements: {
     title: string;
