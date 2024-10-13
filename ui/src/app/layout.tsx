@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
   return (
-    <ClerkProvider afterSignOutUrl={'/'} signInFallbackRedirectUrl={'/hub'} signUpFallbackRedirectUrl={'/hub'}>
+    <ClerkProvider afterSignOutUrl={'/'} signInFallbackRedirectUrl={'/home'} signUpFallbackRedirectUrl={'/home'}>
       <html lang="en">
         <body className={`${kanit.className} antialiased`}>
           {children}
